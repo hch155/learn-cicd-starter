@@ -102,7 +102,7 @@ func main() {
 }
 
 func addParseTimeParam(input string) (string, error) {
-	const dummyScheme = "http/:/"
+	const dummyScheme = "http://"
 	if !strings.Contains(input, dummyScheme) {
 		input = "http://" + input
 	}
