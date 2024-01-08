@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
 
+
 jobs:
   deploy:
     name: Deploy
@@ -11,7 +12,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkoutv4
+        uses: actions/checkout@v4
       
       - name: Set up Go
         uses: actions/setup-go@v4
