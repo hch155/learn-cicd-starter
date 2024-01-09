@@ -32,3 +32,4 @@ jobs:
         run: |
           gcloud builds submit --tag central2-docker.pkg.dev/notely-410710/notely-ar-repo/notely:v2 .
 
+
